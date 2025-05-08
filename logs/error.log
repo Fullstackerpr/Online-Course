@@ -1,0 +1,23 @@
+{"level":"error","message":"dangg: Otp expired","timestamp":"2025-05-07T15:59:47.216Z"}
+{"level":"error","message":"dangg: Otp expired","timestamp":"2025-05-07T16:00:12.353Z"}
+{"level":"error","message":"dangg: Refresh token not found","timestamp":"2025-05-07T16:02:04.727Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:19:13.819Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:19:48.812Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:20:15.667Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:23:01.331Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:23:30.043Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:24:10.515Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-08T09:08:00.322Z"}
+{"level":"error","message":"dangg: Otp expired","timestamp":"2025-05-08T09:09:03.974Z"}
+{"level":"error","message":"dangg: Otp expired","timestamp":"2025-05-08T09:12:43.218Z"}
+{"level":"error","message":"dangg: Otp expired","timestamp":"2025-05-08T09:13:36.297Z"}
+{"level":"error","message":"dangg: Cannot read properties of undefined (reading 'role')","timestamp":"2025-05-08T09:50:46.057Z"}
+{"level":"error","message":"dangg: Cannot read properties of undefined (reading 'role')","timestamp":"2025-05-08T09:51:06.909Z"}
+{"level":"error","message":"dangg: Cast to ObjectId failed for value \"user\" (type string) at path \"_id\" for model \"User\"","timestamp":"2025-05-08T09:55:49.000Z"}
+{"level":"error","message":"dangg: Cannot set headers after they are sent to the client","timestamp":"2025-05-08T09:55:49.004Z"}
+{"level":"error","message":"dangg: ValidationError: \"fullName\" is required","timestamp":"2025-05-08T12:37:46.621Z"}
+{"level":"error","message":"dangg: ValidationError: \"fullName\" is required","timestamp":"2025-05-08T12:38:52.393Z"}
+{"level":"error","message":"dangg: Joi.string.required is not a function","timestamp":"2025-05-08T12:40:57.256Z"}
+{"level":"error","message":"dangg: ValidationError: \"price\" must be a number","timestamp":"2025-05-08T12:41:31.750Z"}
+{"level":"error","message":"dangg: categoryValidator.findById is not a function","timestamp":"2025-05-08T14:00:48.564Z"}
+{"level":"error","message":"dangg: Review id not found: undefined","timestamp":"2025-05-08T15:33:48.198Z"}

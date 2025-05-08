@@ -1,0 +1,134 @@
+{"level":"info","message":"Server connecting on port: 5555","timestamp":"2025-05-07T15:04:40.110Z"}
+{"level":"info","message":"Server connecting on port: 5555","timestamp":"2025-05-07T15:05:15.334Z"}
+{"level":"info","message":"Server connecting on port: 5555","timestamp":"2025-05-07T15:05:31.564Z"}
+{"level":"info","message":"Server connecting on port: 5555","timestamp":"2025-05-07T15:05:38.103Z"}
+{"level":"info","message":"Server connecting on port: 5555","timestamp":"2025-05-07T15:43:17.361Z"}
+{"level":"info","message":"Server connecting on port: 5555","timestamp":"2025-05-07T15:45:58.914Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-07T15:46:44.055Z"}
+{"level":"error","message":"dangg: Otp expired","timestamp":"2025-05-07T15:59:47.216Z"}
+{"level":"error","message":"dangg: Otp expired","timestamp":"2025-05-07T16:00:12.353Z"}
+{"level":"error","message":"dangg: Refresh token not found","timestamp":"2025-05-07T16:02:04.727Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-07T16:05:17.413Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-07T16:05:18.222Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:19:13.819Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-07T16:19:44.912Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:19:48.812Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-07T16:20:10.244Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-07T16:20:12.854Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:20:15.667Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-07T16:20:35.492Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-07T16:22:33.911Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-07T16:22:37.343Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-07T16:22:39.674Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:23:01.331Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:23:30.043Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-07T16:24:05.329Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-07T16:24:10.515Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:07:15.739Z"}
+{"level":"error","message":"dangg: accessToken is not defined","timestamp":"2025-05-08T09:08:00.322Z"}
+{"level":"error","message":"dangg: Otp expired","timestamp":"2025-05-08T09:09:03.974Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:11:45.332Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:11:56.460Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:11:59.371Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:12:19.377Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:12:21.013Z"}
+{"level":"error","message":"dangg: Otp expired","timestamp":"2025-05-08T09:12:43.218Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:13:30.525Z"}
+{"level":"error","message":"dangg: Otp expired","timestamp":"2025-05-08T09:13:36.297Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:31:01.072Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:33:03.600Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:35:45.819Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:46:10.651Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:46:19.130Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:46:25.877Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:47:19.419Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:47:24.475Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:47:32.350Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:48:06.470Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:48:19.264Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:48:25.441Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:50:03.638Z"}
+{"level":"error","message":"dangg: Cannot read properties of undefined (reading 'role')","timestamp":"2025-05-08T09:50:46.057Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:51:03.697Z"}
+{"level":"error","message":"dangg: Cannot read properties of undefined (reading 'role')","timestamp":"2025-05-08T09:51:06.909Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:51:42.821Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:52:19.789Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:52:39.658Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:53:25.686Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:53:38.672Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:53:45.527Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:53:57.591Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:54:06.520Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:54:11.242Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:54:50.556Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T09:55:31.160Z"}
+{"level":"error","message":"dangg: Cast to ObjectId failed for value \"user\" (type string) at path \"_id\" for model \"User\"","timestamp":"2025-05-08T09:55:49.000Z"}
+{"level":"error","message":"dangg: Cannot set headers after they are sent to the client","timestamp":"2025-05-08T09:55:49.004Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:37:41.952Z"}
+{"level":"error","message":"dangg: ValidationError: \"fullName\" is required","timestamp":"2025-05-08T12:37:46.621Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:38:35.482Z"}
+{"level":"error","message":"dangg: ValidationError: \"fullName\" is required","timestamp":"2025-05-08T12:38:52.393Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:40:43.218Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:40:51.190Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:40:52.561Z"}
+{"level":"error","message":"dangg: Joi.string.required is not a function","timestamp":"2025-05-08T12:40:57.256Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:41:24.402Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:41:26.636Z"}
+{"level":"error","message":"dangg: ValidationError: \"price\" must be a number","timestamp":"2025-05-08T12:41:31.750Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:41:45.687Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:47:50.324Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:50:00.359Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:54:42.998Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:54:48.453Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:54:50.671Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:55:08.153Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:55:17.790Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:55:19.325Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:56:05.551Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:56:12.026Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:56:21.502Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:56:25.516Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:56:32.794Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:56:36.080Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:57:01.029Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:57:21.431Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:58:10.227Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:58:11.467Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:58:23.433Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:58:26.244Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:58:33.343Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:58:35.319Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:59:14.831Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:59:17.619Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:59:24.456Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:59:32.509Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:59:37.882Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:59:44.469Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:59:46.692Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:59:52.905Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T12:59:58.889Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T13:00:04.247Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T13:00:14.468Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T13:00:18.643Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T13:00:20.478Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T13:00:22.566Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T13:00:25.770Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T13:00:27.162Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T13:00:32.820Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T13:00:38.406Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T13:00:40.256Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T13:56:26.815Z"}
+{"level":"error","message":"dangg: categoryValidator.findById is not a function","timestamp":"2025-05-08T14:00:48.564Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T14:11:11.071Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T14:11:16.594Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T14:11:19.081Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T14:11:24.860Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T14:11:27.252Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T14:11:33.474Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T14:11:38.629Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T14:11:40.576Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T14:13:49.076Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T14:14:15.194Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T15:18:36.874Z"}
+{"level":"error","message":"dangg: Review id not found: undefined","timestamp":"2025-05-08T15:33:48.198Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T15:34:22.371Z"}
