@@ -5,7 +5,8 @@ export const courseValidator = (data) => {
         title: Joi.string().required(),
         description: Joi.string().required(),
         price: Joi.string().required(),
-        author: Joi.string().required()
+        author: Joi.string().required(),
+        category_id: Joi.string().required()
     });
     return course.validate(data);
 }

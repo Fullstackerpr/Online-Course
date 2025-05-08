@@ -1,83 +1,87 @@
 import Enrollment from "../model/enrollment.model.js";
 import { catchError } from "../utils/error-response.js";
 import { successRes } from "../utils/success-response.js";
-import { reviewValidation } from "../validation/review.validation.js";
+import { enrollmentValidator } from "../validation/enrollment.validation.js";
 
-
-export class ReviewController {
-    async createReview(req, res){
-        try{
-            const {error, value} = reviewValidation(req.body);
-            if(error){
-                return catchError(res, 400, error);
-            }
-            const {rating, commet} = value;
-            const review = await Review.create({
-                rating, commet
-            });
-            successRes(res, 201, 'success', review);
-        } catch(error) {
-            catchError(res, 500, error.message);
-        }
+export class EnrollmentController {
+  async createEnrollment(req, res) {
+    try {
+      const { error, value } = enrollmentValidator(req.body);
+      if (error) {
+        return catchError(res, 400, error);
+      }
+      const { enrollment_at } = value;
+      const enrollment = await Enrollment.create({
+        enrollment_at,
+      });
+      successRes(res, 201, "success", enrollment);
+    } catch (error) {
+      catchError(res, 500, error.message);
     }
+  }
 
-    async getAllReview(_, res){
-        try{
-            const reviews = await Review.find();
-            successRes(res, 200, 'success', reviews);
-        } catch (error) {
-            return catchError(res, 500, error.message);
-        }
+  async getAllEnrollment(_, res) {
+    try {
+      const enrollments = await Enrollment.find();
+      successRes(res, 200, "success", enrollments);
+    } catch (error) {
+      return catchError(res, 500, error.message);
     }
+  }
 
-    async getByIdReview(req, res){
-        try {
-            const id = req.params.id;
-            const review = await ReviewController.findById(res, id);
-            successRes(res, 200, 'success', review);
-        } catch (error){
-            return catchError(res, 500, error.message);
-        }
+  async getByIdEnrollment(req, res) {
+    try {
+      const id = req.params.id;
+      const enrollment = await EnrollmentController.findById(res, id);
+      successRes(res, 200, "success", enrollment);
+    } catch (error) {
+      return catchError(res, 500, error.message);
     }
+  }
 
-    async updateReview(req, res){
-        try {
-            const id = req.params.id;
-            await ReviewController.findById(res, id);
-            if (req.body.rating){
-                const existRating = await Review.findOne({
-                    rating: req.body.rating,
-                });
-                if(existRating && id != existRating._id){
-                    return catchError(res, 409, 'Rating already exists');
-                }
-            }
-            const updateReview = await Review.findByIdAndUpdate(id, {...req.body}, {new: true});
-            successRes(res, 200, 'success', updateReview);
-        } catch (error) {
-            return catchError(res, 500, error.message);
+  async updateEnrollment(req, res) {
+    try {
+      const id = req.params.id;
+      await EnrollmentController.findById(res, id);
+      if (req.body.enrollment_at) {
+        const existenrollment_at = await Enrollment.findOne({
+          enrollment_at: req.body.enrollment_at,
+        });
+        if (existenrollment_at && id != existenrollment_at._id) {
+          return catchError(res, 409, "Enrollment_at already exists");
         }
+      }
+      const updateEnrollment = await Enrollment.findByIdAndUpdate(
+        id,
+        { ...req.body },
+        { new: true }
+      );
+      successRes(res, 200, "success", updateEnrollment);
+    } catch (error) {
+      return catchError(res, 500, error.message);
     }
+  }
 
-    async deleteReview(req, res){
-        try {
-            const id = req.params.id;
-            await ReviewController.findById(res, id);
-            await Review.findByIdAndUpdate(id);
-        } catch (error){
-            return catchError(res, 500, error.message);
-        }
+  async deleteEnrollment(req, res){
+    try{
+        const id = req.params.id;
+        await EnrollmentController.findById(res,id);
+        await Enrollment.findByIdAndDelete(id);
+        successRes(res, 200, 'success', {});
+    } catch (error) {
+        return catchError(res, 500, error.message);
     }
+}
 
-    static async findById(res, id){
-        try{
-            const review = await Review.findById(id);
-            if(!review){
-                return catchError(res, 404, `Review id not found: ${id}`);
-            }
-            return review;
-        } catch (error) {
-            return catchError(res, 500, error.message);
-        }
+  static async findById(res, id) {
+    try {
+      const review = await Enrollment.findById(id);
+      if (!review) {
+        return catchError(res, 404, `Review id not found: ${id}`);
+      }
+      return review;
+    } catch (error) {
+      return catchError(res, 500, error.message);
     }
+  }
 }

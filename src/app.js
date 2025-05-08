@@ -5,6 +5,7 @@ import cookieParser from 'cookie-parser';
 import userRouter from './routes/user.routes.js';
 import courseRouter from './routes/course.routes.js';
 import categoryRouter from './routes/category.routes.js';
+import enrollmentRouter from './routes/enrollment.routes.js'
 import reviewRouter from './routes/review.routes.js';
 import logger from './utils/logger/logger.js';
 config();
@@ -20,6 +21,7 @@ app.use('/user', userRouter);
 app.use('/course', courseRouter);
 app.use('/category', categoryRouter);
 app.use('/review', reviewRouter);
+app.use('/enrollment', enrollmentRouter);
 
 process.on('uncaughtException', (err) => {
     if (err) console.log(`Uncaught exception: ${err}`);

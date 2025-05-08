@@ -132,3 +132,41 @@
 {"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T15:18:36.874Z"}
 {"level":"error","message":"dangg: Review id not found: undefined","timestamp":"2025-05-08T15:33:48.198Z"}
 {"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T15:34:22.371Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T18:58:58.262Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:03:09.016Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:03:20.938Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:03:29.871Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:03:35.741Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:03:39.990Z"}
+{"level":"error","message":"dangg: ValidationError: \"course_id\" is required","timestamp":"2025-05-08T19:03:47.999Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:04:23.519Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:04:28.752Z"}
+{"level":"error","message":"dangg: Enrollment validation failed: user_id: Path `user_id` is required., course_id: Path `course_id` is required.","timestamp":"2025-05-08T19:04:28.964Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:04:51.195Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:04:56.225Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:06:47.617Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:06:53.379Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:07:00.644Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:07:14.388Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:07:18.837Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:07:24.679Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:07:32.392Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:07:43.405Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:07:56.577Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:08:07.134Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:15:55.930Z"}
+{"level":"error","message":"dangg: Review is not defined","timestamp":"2025-05-08T19:16:12.219Z"}
+{"level":"error","message":"dangg: Converting circular structure to JSON\n    --> starting at object with constructor 'Socket'\n    |     property 'parser' -> object with constructor 'HTTPParser'\n    --- property 'socket' closes the circle","timestamp":"2025-05-08T19:16:12.220Z"}
+{"level":"error","message":"dangg: Review is not defined","timestamp":"2025-05-08T19:18:54.860Z"}
+{"level":"error","message":"dangg: Cannot set headers after they are sent to the client","timestamp":"2025-05-08T19:18:54.877Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:21:42.086Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:23:36.441Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:23:42.145Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:23:47.115Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:25:03.107Z"}
+{"level":"error","message":"dangg: Review id not found: 681d005b360e4c9d6489a02e","timestamp":"2025-05-08T19:25:06.721Z"}
+{"level":"error","message":"dangg: Cannot set headers after they are sent to the client","timestamp":"2025-05-08T19:25:06.727Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:25:51.231Z"}
+{"level":"error","message":"dangg: Review id not found: 681d005b360e4c9d6489a02e","timestamp":"2025-05-08T19:26:08.043Z"}
+{"level":"error","message":"dangg: Cannot set headers after they are sent to the client","timestamp":"2025-05-08T19:26:08.052Z"}
+{"level":"info","message":"Server connecting on port: 5050","timestamp":"2025-05-08T19:26:39.516Z"}
