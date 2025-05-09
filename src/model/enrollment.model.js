@@ -14,8 +14,21 @@ const enrollmentSchema = new Schema({
         ref: "User",
     }
 }, {
-    timestamps: true
+    timestamps: true, toJSON: {virtuals: true}, toObject: {virtuals: true}
 });
+
+enrollmentSchema.virtual('user', {
+    ref: 'User',
+    localField: 'user_id', 
+    foreignField: '_id'
+});
+
+enrollmentSchema.virtual('course', {
+    ref: 'Course',
+    localField: 'course_id', 
+    foreignField: '_id'
+});
+
 
 const Enrollment = new model('Enrollment', enrollmentSchema);
 export default Enrollment;

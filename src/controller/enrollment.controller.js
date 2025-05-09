@@ -22,7 +22,9 @@ export class EnrollmentController {
 
   async getAllEnrollment(_, res) {
     try {
-      const enrollments = await Enrollment.find();
+      const enrollments = await Enrollment.find()
+        .populate("course_id")
+        .populate("user_id");
       successRes(res, 200, "success", enrollments);
     } catch (error) {
       return catchError(res, 500, error.message);
@@ -32,7 +34,9 @@ export class EnrollmentController {
   async getByIdEnrollment(req, res) {
     try {
       const id = req.params.id;
-      const enrollment = await EnrollmentController.findById(res, id);
+      const enrollment = await EnrollmentController.findById(res, id)
+        .populate("course_id")
+        .populate("user_id");
       successRes(res, 200, "success", enrollment);
     } catch (error) {
       return catchError(res, 500, error.message);
@@ -62,16 +66,16 @@ export class EnrollmentController {
     }
   }
 
-  async deleteEnrollment(req, res){
-    try{
-        const id = req.params.id;
-        await EnrollmentController.findById(res,id);
-        await Enrollment.findByIdAndDelete(id);
-        successRes(res, 200, 'success', {});
+  async deleteEnrollment(req, res) {
+    try {
+      const id = req.params.id;
+      await EnrollmentController.findById(res, id);
+      await Enrollment.findByIdAndDelete(id);
+      successRes(res, 200, "success", {});
     } catch (error) {
-        return catchError(res, 500, error.message);
+      return catchError(res, 500, error.message);
     }
-}
+  }
 
   static async findById(res, id) {
     try {

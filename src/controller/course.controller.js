@@ -24,7 +24,13 @@ export class CourseController {
 
     async getAllCourse(_, res){
         try {
-            const courses = await Course.find();
+            const courses = await Course.find()
+                .populate('author')
+                .populate('category_id')
+                .populate('enrollment')
+            if(!courses){
+                return catchError(res, 404, 'Course not found')
+            }
             successRes(res, 200, 'success', courses);
         } catch(error){
             return catchError(res, 500, error.message)
@@ -34,7 +40,10 @@ export class CourseController {
     async getByIdCourse(req, res){
         try {
             const id = req.params.id;
-            const course = await CourseController.findById(res, id);
+            const course = await CourseController.findById(res, id)
+                .populate('author')
+                .populate('category_id')
+                .populate('enrollment')
             successRes(res, 200, 'success', course);
         } catch (error) {
             catchError(res, 500, error.message);
@@ -42,19 +51,23 @@ export class CourseController {
     }
 
     async updateCourse(req, res){
-        const id = req.params.id;
-        await CourseController.findById(res, id);
-        if(req.body.title){
-            const existTitle = await Course.findOne({
-                title: req.body.title,
-            });
-            if(existTitle && id !== existTitle._id){
-                return catchError(res, 409, 'Title already exists')
+        try {
+            const id = req.params.id;
+            await CourseController.findById(res, id);
+            if(req.body.title){
+                const existTitle = await Course.findOne({
+                    title: req.body.title,
+                });
+                if(existTitle && id !== existTitle._id){
+                    return catchError(res, 409, 'Title already exists')
+                }
             }
-        }
 
-        const updateCourse = await Course.findByIdAndUpdate(id, {...req.body}, {new: true})
-        successRes(res, 200, 'success', updateCourse);
+            const updateCourse = await Course.findByIdAndUpdate(id, {...req.body}, {new: true})
+            successRes(res, 200, 'success', updateCourse);
+        } catch (error) {
+            return catchError(res, 500, error.message);
+        }
     }
 
     async deleteCourse(req, res){

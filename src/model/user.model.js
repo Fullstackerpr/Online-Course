@@ -23,7 +23,13 @@ const userSchema = new Schema({
         required: true
     },
 }, {
-    timestamps: true
+    timestamps: true, toJSON: {virtuals: true}, toObject: {virtuals: true}
+});
+
+userSchema.virtual('enrollment', {
+    ref: 'Enrollment',
+    localField: '_id', 
+    foreignField: 'user_id'
 });
 
 const User = model('User', userSchema);

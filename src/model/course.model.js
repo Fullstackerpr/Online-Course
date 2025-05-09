@@ -1,6 +1,5 @@
 import { model, Schema } from "mongoose";
 
-
 const courseSchema = new Schema({
     title: {
         type: String,
@@ -12,7 +11,7 @@ const courseSchema = new Schema({
         required: true
     },
     price: {
-        type: String,
+        type: Number,
         required: true
     },
     author: {
@@ -23,11 +22,18 @@ const courseSchema = new Schema({
     category_id: {
         type: Schema.Types.ObjectId,
         ref: "Category",
-        required: true
     },
-
 }, {
-    timestamps: true
+    timestamps: true,
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true }
+});
+
+
+courseSchema.virtual('enrollments', {
+    ref: 'Enrollment',           
+    localField: '_id',           
+    foreignField: 'course_id'     
 });
 
 const Course = model('Course', courseSchema);

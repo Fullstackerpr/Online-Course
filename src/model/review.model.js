@@ -21,8 +21,21 @@ const reviewSchema = new Schema({
         required: true
     },
 }, {
-    timestamps: true
+    timestamps: true, toJSON: {virtuals: true}, toObject: {virtuals: true}
 });
+
+reviewSchema.virtual('user', {
+    ref: 'User',
+    localField: 'user_id', 
+    foreignField: '_id'
+});
+
+reviewSchema.virtual('course', {
+    ref: 'Course',
+    localField: 'course_id', 
+    foreignField: '_id'
+});
+
 
 const Review = model('Review', reviewSchema);
 export default Review;
